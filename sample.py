@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/htop')
 def htop():
-    name = "Your Full Name"  # Replace with your full name
+    name = "Trinadh Singamapalli "  # Replace with your full name
     username = os.getlogin()
     
     # Get IST time
@@ -24,8 +24,8 @@ def htop():
     <head><title>/htop</title></head>
     <body>
         <h1>/htop Endpoint</h1>
-        <p><strong>Name:</strong> {name}</p>
-        <p><strong>Username:</strong> {username}</p>
+        <p><strong>Name:Trinadh Singampalli</strong> {name}</p>
+        <p><strong>Username: trinadhsin</strong> {username}</p>
         <p><strong>Server Time (IST):</strong> {server_time}</p>
         <h2>Top Output:</h2>
         <pre>{top_output}</pre>
